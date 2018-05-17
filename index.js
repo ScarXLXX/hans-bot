@@ -5,7 +5,7 @@ bot.on('message', (message) => {
 
     if(message.content == 'Hans, get the flammenwerfer') {
         // message.reply('At once!');
-		message.channel.sendMessage('IM GETTING THE FLAMMENWERFER :b:');
+		message.channel.sendMessage('I AM GETTING THE FLAMMENWERFER :Flammenwerfer:');
     }
 
 });
