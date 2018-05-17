@@ -4,23 +4,23 @@ const bot = new Discord.Client();
 bot.on('message', (message) => {
 
     if(message.content == 'I am a capitalist') {
-		message.channel.sendMessage('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
+		message.channel.send('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
     }
 
     if(message.content == 'The arabs are coming') {
-        message.channel.sendMessage('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
+        message.channel.send('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
     }
 
     if(message.content == 'I am a furry') {
-        message.channel.sendMessage('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
+        message.channel.send('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
     }
 
     if(message.content == 'I am gay') {
-        message.channel.sendMessage('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
+        message.channel.send('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
     }
     
     if(message.content == 'Karl, halp!') {
-        message.channel.sendMessage('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
+        message.channel.send('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
     }
 
 });
