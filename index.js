@@ -4,7 +4,8 @@ const bot = new Discord.Client();
 bot.on('message', (message) => {
 
     if(message.content == 'Hans, get the flammenwerfer') {
-        message.reply('At once!');
+        // message.reply('At once!');
+		message.channel.sendMessage('IM GETTING THE FLAMMENWERFER :b:');
     }
 
 });
