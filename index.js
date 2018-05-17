@@ -3,7 +3,7 @@ const bot = new Discord.Client();
 
 bot.on('message', (message) => {
 
-    if(message.content == 'Hans, get the flammenwerfer') {
+    if(message.content == 'I am a capitalist') {
 		message.channel.sendMessage('Hans, get the flammenwerfer <:flammenwerfer:446752673757265930>');
     }
 
