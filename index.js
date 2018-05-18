@@ -18,6 +18,9 @@ bot.on('message', (message) => {
     if(message.content == 'Karl, halp!') {
         message.channel.send('Hans, get the flammenwerfer! <:flammenwerfer:446404128730644490>');
     }
+    if(message.content == 'xD') {
+        message.channel.send('<:crispyjoy:442653622510157835>');
+    }
 
 });
 
