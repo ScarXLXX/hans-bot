@@ -22,7 +22,7 @@ bot.on('message', (message) => {
         message.channel.send('<:crispyjoy:442653622510157835>');
     }
 	if(message.content == 'K') {
-		message.channel.send('Yeah, you see, K is a nice element. Really reactive. Unlike that response you just gave.');
+		message.channel.send('Yeah, you see, potassium is a nice element. Really reactive. Unlike that response you just gave.');
 	}
 });
 
