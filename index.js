@@ -21,7 +21,9 @@ bot.on('message', (message) => {
     if(message.content == 'xD') {
         message.channel.send('<:crispyjoy:442653622510157835>');
     }
-
+	if(message.content == 'K') {
+		message.channel.send('Yeah, you see, K is a nice element. Really reactive. Unlike that response you just gave.');
+	}
 });
 
 bot.login('NDQ2NzQ4NDY5OTMyMTk1ODQw.Dd9jEw.kchXM7KDGrCamMTdwgzE0y5LB9k');
